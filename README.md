@@ -8,7 +8,7 @@ het paln is een ai die je code / github repo uitleest en aan de hand daarvan sug
 
  	https://aidevhub.medium.com/ai-models-in-web-apps-using-django-with-ollama-63879e27baf5
 
-&nbsp;	https://markaicode.com/optimize-ollama-code-review-ai-qa/
+ 	https://markaicode.com/optimize-ollama-code-review-ai-qa/
 
 
 
@@ -49,4 +49,8 @@ Ik raad aan om te kijken naar Langgraph of Langchain, dan hoef je niet handmatig
 Ze hebben gratis video cursussen op hun website, als je daar doorheen bent kan je alles ermee bouwen wat je wilt
 
 Langgraph werkt het beste voor je usecase, dan maak je eigenlijk een flowchart waarin je je AI plaatst
+
+
+
+docker compose een beetje inefficient
 
