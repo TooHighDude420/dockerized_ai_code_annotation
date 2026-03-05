@@ -34,7 +34,7 @@ gekozen ai agents:
 2. deepseek-coder:6.7b  # Excellent for bug detection
 3. magicoder:7b         # Strong at security analysis
 
-
+gebruik nu qwen2.5-coder:7b als annotatie ai
 
 Minimum: 16GB RAM, 4-core CPU
 
@@ -50,7 +50,17 @@ Ze hebben gratis video cursussen op hun website, als je daar doorheen bent kan j
 
 Langgraph werkt het beste voor je usecase, dan maak je eigenlijk een flowchart waarin je je AI plaatst
 
+docker compose is erg inefficient door de wsl virtualisatie laag
+
+het best is om een systeem te maken dat op linux en widows kan draaien, zodat ik altijd native de ai kan draaien zonder bottlenecks
 
 
-docker compose een beetje inefficient
-
+Student repo → Preprocessing node
+             → Language detection & dependency graph
+             → Syntax agent (linting) [per file + context]
+             → Security agent (cross-file)
+             → Testing agent (tests coverage, edge cases)
+             → Project analysis agent (structure, naming, modularity)
+             → Hoofd AI synthesizer (combineer alle agent reports)
+             → Per-level pedagogical feedback
+             → Final structured report
